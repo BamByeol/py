@@ -1,0 +1,5 @@
+def solution(arr):
+    answer = 0
+    cnt = len(arr)
+    total = sum(arr)
+    return total/cnt
